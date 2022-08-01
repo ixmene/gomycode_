@@ -4,6 +4,10 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="self-website" content="self-website">
+    <link rel="stylesheet" href="./style.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Dancing+Script:wght@400;500;600;700&family=Edu+SA+Beginner:wght@500&family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,700;1,100;1,200;1,300;1,400;1,500;1,600&family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&family=Rubik+Moonrocks&display=swap" rel="stylesheet">
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.4/css/all.min.css">
     <title>Imene</title>
 </head>
@@ -11,22 +15,30 @@
     <header>
         <a href="#" class="logo">Imene</a>
         <nav class="navbar">
-            <a href="#home">Home</a>            
-            <a href="#about">About</a>
-            <a href="#work">Work</a>
-            <a href="./contact.html">Contact</a>
+            <div class="navbare"><a href="#home">Home</a> </div>           
+            <div class="navbare"><a href="#about">About</a></div>
+            <div class="navbare"><a href="#work">Work</a></div>
+            <div class="navbare"><a href="./contact.html">Contact</a></div>
         </nav>
     </header>
     <section class="main">
-        <h2></h2>
-        <a href="https://github.com/ixmene"><i class="fab fa-github"></i></a>
-        <a href="https://www.linkedin.com/in/imene-rabahallah-61b36a243/"><i class="fab fa-linkedin"></i></a>
-        <a href="https://www.instagram.com/ixmene/"><i class="fab fa-instagram-square"></i></a>
-        <a href="#"><i class="fab fa-facebook-square"></i></a>
-
         <img src="./photo.jpg" alt="web" width="100%" height="500px">
+        <h2 id="intero">
+            <span class="description hey">
+            <div class="hi h">H</div> 
+            <div class="hi i">i</div>,
+                 <br>
+                    I'm Imene web developer</span>
+            <p class="description job"> Front End Developer </p>
+        </h2>
+        <div class="icone">
+        <a href="https://github.com/ixmene"><i class="fab fa-github"></i></a>
+        <a href="https://www.linkedin.com/in/imene-rabahallah-61b36a243/"><i class="fab fa-linkedin-in"></i></a>
+        <a href="https://www.instagram.com/ixmene/"><i class="fab fa-instagram"></i></a>
+        <a href="#"><i class="fab fa-facebook-f"></i></a>
+        </div>
     </section>
-    <section class="resume" id="about">
+    <section id="about">
         <div class="presentation" >
             <h2>
                 Hi, 
@@ -41,52 +53,49 @@
         </div>
     </section>
     <section class="cards" id="work">
-        <h2 class="titre" id="work">Work</h2>
-        <div class="content">
-            <div class="card">
-                <div class="icon">
-                    <i class="fas fa-pen"></i>
-                </div>
-                <div class="info">
-                    <h3>Graphic Designer</h3>
-                    <p>
-                        Graphics related to websites and backgrounds 
-                        for apps and web page and even wallpapers. </p>
-                </div>
-            </div>
-            <div class="card">
-                <div class="icon">
-                    <i class="fas fa-user-graduate"></i>
-                </div>
-                <div class="info">
-                    <h3>University student</h3>
-                    <p>In the field of science and technology (ST) 
-                        at the University of Algeria, first year of license.</p>
-                </div>
-            </div>
-            <div class="card">
-                <div class="icon">
-                    <i class="fas fa-laptop-code"></i>
-                </div>
-                <div class="info">
-                    <h3>web industry </h3>
-                    <p>I come from a front-end programmer, beginner, 
-                        after my evolution in this field,
-                         I try to become a full-stack developer.
-                    </p>    
-                </div>
-            </div>
+        <h2 id="titre" >Work</h2>
+        <div class="card">
+        <div class="icon">
+            <i class="fas fa-user-graduate"></i>
         </div>
-    </section >
-    <footer class="footer">
-             <p class="msg">©2022 Imene. All rights reserved.</p>
-             <nav class="socila-icons">
-                <a href="https://www.instagram.com/?hl=fr"><i class="fab fa-instagram"></i></a>
-                <a href="https://fr-fr.facebook.com/"><i class="fab fa-facebook-square"></i></a>
-                <a href="https://twitter.com/analowize"><i class="fab fa-twitter"></i></a>
-                <a href="https://discord.gg/NbP6wzVpbR"><i class="fab fa-discord"></i></a>
-             </nav>
-    </footer>
-</body>
-
-</html>
+        <div class="info">
+            <h3>University student</h3>
+            <p>In the field of science and technology (ST) 
+                at the University of Algeria, first year of license.</p>
+        </div>
+        </div>
+        <div class="card">
+        <div class="icon">
+            <i class="fas fa-laptop-code"></i>
+        </div>
+        <div class="info">
+            <h3>web industry </h3>
+            <p>I come from a front-end programmer, beginner, 
+                after my evolution in this field,
+                 I try to become a full-stack developer.
+            </p>    
+        </div> 
+        </div>
+        <div class="card">
+        <div class="icon">
+            <i class="fas fa-pen"></i>
+        </div>
+        <div class="info">
+            <h3>Graphic Designer</h3>
+            <p>
+                Graphics related to websites and backgrounds 
+                for apps and web page and even wallpapers. </p>
+        </div>
+        </div>
+    </section>
+    <footer>
+        <div class="msg">
+            <p>©2022 Imene. All rights reserved.</p>
+        </div>
+        <nav class="socila-icons">
+           <a href="https://www.instagram.com/?hl=fr" target="_blank"><i class="fab fa-instagram"></i></a>
+           <a href="https://fr-fr.facebook.com/" target="_blank"><i class="fab fa-facebook-square"></i></a>
+           <a href="https://twitter.com/analowize" target="_blank"><i class="fab fa-twitter"></i></a>
+           <a href="https://discord.gg/NbP6wzVpbR" target="_blank"><i class="fab fa-discord"></i></a>
+        </nav>
+</footer>
