@@ -1,0 +1,156 @@
+@import url('https://fonts.googleapis.com/css2?family=Uchen&display=swap');
+*{
+    margin: 0px;
+    padding: 0px;
+    font-family: roboto;
+    
+}
+body{
+    background-color: #d9b98b93;
+}
+header{
+    width: 100%;    
+   height: 50px;
+   align-items: center;
+   display: flex;
+   padding: 10px 50px;
+   background-attachment: fixed;
+   background-color: #A49992;
+}
+    
+
+.logo{
+    color: rgb(238, 229, 229);
+    text-decoration: none;
+    font-size: 35px;
+    text-transform: uppercase;
+    margin: 20px;
+    padding: 10px;
+}
+.navbare{
+    display: inline;
+}
+.navbar a{
+    color: rgb(238, 229, 229);
+    text-decoration: none;
+    font-size: 25px;
+    text-transform: uppercase;
+    margin-left: 2em;
+    display: inline;
+    padding: 10px ;
+}
+.navbare a:hover{
+    background-color: antiquewhite;
+    color: black;
+    height: 50px;
+    border-radius: 30%;
+}
+#intero{
+    margin: 50px;
+}
+.hey{
+    font-family: Uchen;
+    font-size: 34px;
+    margin: 0px;
+}
+.hi{
+    display: inline;
+    color: #6a6898;
+}
+.i{
+    margin-left: -20px;
+}
+.i:hover {
+    color: #988861 ;
+    font-size: 40px;
+    transition: 0.2s;
+
+
+
+}
+.h:hover {
+    color: #988861 ;
+    font-size: 40px;
+    transition: 0.2s;
+
+}
+.job{
+    font-family: popine;
+}
+.icone{
+    padding-left: 50px;
+    
+}
+.icone a{
+    margin: 10px;
+    color: rgb(138, 140, 141);
+    font-size: 30px;
+}
+#about{
+    margin: 50px;
+    font-size: 18px;
+}
+#work{
+    margin: 50px;
+}
+.icon{
+    font-size: 35px;
+    color: #5f478d;
+}
+.icon:hover{
+    font-size: 40px;
+    color: #4a386d;
+    transition: 0.3s;
+}
+.info h3{
+    font-family: uchen;
+    font-weight: 900;
+
+}
+#titre{
+    text-decoration:overline underline;
+    color: #636363 ;
+}
+.card{
+    background-color: antiquewhite;
+    padding: 20px;
+    border-radius: 15%;
+}
+footer{
+    width: 100%;
+    height: 50px;
+    font-family: popine;
+    font-size: 1.2em; 
+    background-color: #00000071; 
+    display: flex;
+    
+
+}
+.msg{
+    color: white;
+}
+
+.socila-icons a{
+   
+    color: white;
+}
+.socila-icons a:active{
+    color:#504e72;
+}
+.socila-icons a:visited{
+    color:#6a6898b2;
+}
+input{
+    height: 50px;
+    width: 300px;
+}
+#contact{
+    margin: 50px;
+
+}
+.content{
+    background-color: antiquewhite;
+    padding: 20px;
+    border-radius: 15%; 
+    padding: 30px;  
+}
